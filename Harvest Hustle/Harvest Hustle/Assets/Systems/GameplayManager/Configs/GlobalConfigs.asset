@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01bba5f699268b9438882ef85d071a38, type: 3}
+  m_Name: GlobalConfigs
+  m_EditorClassIdentifier: 
+  Player_Active: 0
+  CanMakeInteractions_Active: 0
+  SlowText_Speed: 10
+  MediumText_Speed: 60
+  FastText_Speed: 300
+  DefaultPortrait: {fileID: 1489551847, guid: fbf10fc1364b23844959c938eb87ea25, type: 3}
+  BlankIcon: {fileID: 1489551847, guid: fbf10fc1364b23844959c938eb87ea25, type: 3}
+  Camera_Active: 1
+  DayPeriodInfos:
+  - Period: 0
+    Icon: {fileID: 492169805, guid: e3b6832ae23a83f46887392efc573aac, type: 3}
+    Color: {r: 0.5686275, g: 0.69803923, b: 0.3019608, a: 1}
+  - Period: 1
+    Icon: {fileID: 1248479109, guid: e3b6832ae23a83f46887392efc573aac, type: 3}
+    Color: {r: 0.7764706, g: 0.49803922, b: 0.1764706, a: 1}
+  - Period: 2
+    Icon: {fileID: 446162713, guid: e3b6832ae23a83f46887392efc573aac, type: 3}
+    Color: {r: 0.33333334, g: 0.21960784, b: 0.5764706, a: 1}
+  CanChangeClimate_Active: 1
+  CanChangeClimateDoCooldown_Active: 1
+  ChangeClimateVerification_Cooldown: 3
+  SpecialClimate_Chance: 25
+  ClimateIntensity_Settings:
+  - intensity: 2
+    ClimateEffect_Chance: 55
+    ClimateEffect_Duration: 1
+  - intensity: 1
+    ClimateEffect_Chance: 35
+    ClimateEffect_Duration: 3
+  - intensity: 0
+    ClimateEffect_Chance: 10
+    ClimateEffect_Duration: 5
+  MoistureStaticOnRain_Active: 1
+  MoistureStaticOnRain_Amount: 80
+  DegradationDecreaseOnRain_Active: 1
+  DegradationDecreaseOnRainPerStrike_Amount: 15
+  TimeForPlantationDeathInHours_Amount: 48
+  TimeForPlantationDeathInStrikes_Amount: 8
+  MoistureDecayOverStrike_Active: 1
+  MoistureDecayOverStrike_Amount: 7.5
+  MoistureValueToStartBeDry_Amount: 5
+  MoistureValueToStartBeSoak_Amount: 80
+  MoistureHaveDayReset_Active: 1
+  MoistureDayResetValue_Amount: 5
+  FertilizationDecayOverEndPlantation_Active: 1
+  FertilizationMinimunToStartDeath_Amount: 25
+  FertilizationIncreaseWithItem_Amount: 50
+  DegradatePlantationPerStrike_Active: 1
+  DegradationDecayPerStrike_Amount: 1.5
+  DegradationIntegrityMinValue_Amount: 15
+  DegradationIntegrityMediumValue_Amount: 30
+  DegradationIntegrityMaxValue_Amount: 50
+  DonationInfos:
+  - item: {fileID: 11400000, guid: 119b7175a6f091243a13ba97caa87027, type: 2}
+    donationValue: 30
+  - item: {fileID: 11400000, guid: c69b7a266090c3b4a89002941c304cdd, type: 2}
+    donationValue: 6
+  - item: {fileID: 11400000, guid: ff7c854f838dd86498379d4229466571, type: 2}
+    donationValue: 5
+  - item: {fileID: 11400000, guid: 81dcca78cde78004fb1ee6bb38019084, type: 2}
+    donationValue: 8
+  - item: {fileID: 11400000, guid: e6dba323a6209e444a2395b6cbf06a8d, type: 2}
+    donationValue: 20
+  - item: {fileID: 11400000, guid: 4cd3d82961c36874ca5aa07633435452, type: 2}
+    donationValue: 10
+  - item: {fileID: 11400000, guid: adfea6cb5284a494a93fa85a7c110e60, type: 2}
+    donationValue: 15
+  - item: {fileID: 11400000, guid: 64b81a297e7028042badb231a3c17abc, type: 2}
+    donationValue: 3
+  - item: {fileID: 11400000, guid: 7852f7f1673e358498f6c7664d7ecfa7, type: 2}
+    donationValue: 2
+  - item: {fileID: 11400000, guid: 497a23c0ecad52f4db1f35cf8ef22f39, type: 2}
+    donationValue: 30
+  - item: {fileID: 11400000, guid: 10bb06abe320fee43b4d8d3bc7dd8384, type: 2}
+    donationValue: 10
+  - item: {fileID: 11400000, guid: 31ed48a062ac11c4c934c4f34b7bba56, type: 2}
+    donationValue: 1
+  - item: {fileID: 11400000, guid: 9a2a94009af656f44be533ee71acc511, type: 2}
+    donationValue: 5
+  - item: {fileID: 11400000, guid: a0cdbf70595c68146b36a647d145462a, type: 2}
+    donationValue: 2
+  - item: {fileID: 11400000, guid: 0301b6f69f25d0f4fac7ad3528434d74, type: 2}
+    donationValue: 3
+  BarFillTimeInSecondsForNoneStrike: 0.5
+  BarFillTimeInSecondsForSingleStrike: 1.5
+  BarFillTimeInSecondsForDoubleStrike: 3
+  BrownSubstractToMakeFertilization_Amount: 5
+  GreenSubstractToMakeFertilization_Amount: 5
+  HoursToProduceFertilization_Amount: 24
+  FertilizationProduction_Amount: 8

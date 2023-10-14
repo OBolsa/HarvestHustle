@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29e572aa4a2298e40b3f429295dd49da, type: 3}
+  m_Name: Plant_Pimenta
+  m_EditorClassIdentifier: 
+  plantName: Pimenta
+  timeToGrow: 48
+  fertilizationDrain: 1
+  irrigation: 0
+  fertilization: 0
+  care: 2
+  states:
+  - stateName: Pimenta Morta
+    stateModel: {fileID: 919132149155446097, guid: 54e61ef7fe472cb458855b8d9b7e589b, type: 3}
+  - stateName: Colher Pimenta
+    stateModel: {fileID: 919132149155446097, guid: 0f3bd8b4dfe15ff4b9da6107557ac116, type: 3}
+  - stateName: Pimenta Sem Frutos
+    stateModel: {fileID: 919132149155446097, guid: 0f3bd8b4dfe15ff4b9da6107557ac116, type: 3}
+  - stateName: Broto de Pimenta
+    stateModel: {fileID: 919132149155446097, guid: c8ef4c1d2a84cbb4f930da7ed3e086f9, type: 3}
+  - stateName: Pimenta Vegetativa
+    stateModel: {fileID: 919132149155446097, guid: 393d94197639f4044971b44cf35073d4, type: 3}
+  - stateName: "Pimenta em Matura\xE7\xE3o"
+    stateModel: {fileID: 919132149155446097, guid: c8cea45158220c841a94ff78fba222ae, type: 3}
+  itemSeed: {fileID: 11400000, guid: f3bbe7ed0b7c23644aeb6d3ae0899af2, type: 2}
+  itemOutcome: {fileID: 11400000, guid: 31ed48a062ac11c4c934c4f34b7bba56, type: 2}
+  pruneItem: {fileID: 11400000, guid: d6b94e84ccee60b4fa48586149610764, type: 2}
+  pruneItemAmount: 1
+  collectData:
+  - amount: 3
+    timeToNextCollect: 24
+  - amount: 3
+    timeToNextCollect: 24
+  - amount: 3
+    timeToNextCollect: 0

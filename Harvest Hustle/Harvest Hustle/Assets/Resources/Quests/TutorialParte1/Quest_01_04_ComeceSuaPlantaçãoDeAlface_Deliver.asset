@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2065354842899590751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa001931983ebba49bab8e103fc5266b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RequiredAmount: 1
+  CustomDescription: "Avise o {0} que voc\xEA terminou."
+  GoalCompleted:
+    m_PersistentCalls:
+      m_Calls: []
+  desiredInteractionName: Clodoaldo
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e49a86daf662825469250169b8406bc1, type: 3}
+  m_Name: "Quest_01_04_ComeceSuaPlanta\xE7\xE3oDeAlface_Deliver"
+  m_EditorClassIdentifier: 
+  Information:
+    Title: "Comece sua planta\xE7\xE3o de Alface"
+    Description: 
+  Reward:
+    Contribuition: 0
+    Items: []
+    Quests:
+    - {fileID: 11400000, guid: ac1d5f20561620848b41cc59910252d5, type: 2}
+  Goals:
+  - {fileID: -2065354842899590751}

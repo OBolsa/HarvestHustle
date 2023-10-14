@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2331610145611555170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36cf9188507a256458fcc4d4d19904c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RequiredAmount: 3
+  CustomDescription: Limpe {2} {3}s com seu {0}. {1}/{2}
+  GoalCompleted:
+    m_PersistentCalls:
+      m_Calls: []
+  itemToUse: {fileID: 11400000, guid: 8696cdad1e5ce814cb11103ca75b572b, type: 2}
+  desiredInteractionName: Erva Daninha
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e49a86daf662825469250169b8406bc1, type: 3}
+  m_Name: Quest_01_02_LimpeOTerreno
+  m_EditorClassIdentifier: 
+  Information:
+    Title: Limpe o Terreno
+    Description: Clodoaldo te orientou a limpar os terrenos como primeira atividade.
+  Reward:
+    Contribuition: 0
+    Items: []
+    Quests:
+    - {fileID: 11400000, guid: db47251996b27ca4298ff7b23e4e3c1b, type: 2}
+  Goals:
+  - {fileID: -2331610145611555170}

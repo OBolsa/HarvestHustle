@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9d4c1b863457cc48aa6c88733e694f3, type: 3}
+  m_Name: Trade_MeatForSeed_01
+  m_EditorClassIdentifier: 
+  itemsToRecieve:
+  - itemToRecieve: {fileID: 11400000, guid: c370da5f61a67cf46a6837d617e3bc3b, type: 2}
+    amount: 2
+  - itemToRecieve: {fileID: 11400000, guid: ec9db7adf57478d479cca1600b624d7c, type: 2}
+    amount: 1
+  itemsToGive:
+  - itemToGive: {fileID: 11400000, guid: 85a47a8d033b833459bc296652828571, type: 2}
+    amount: 1

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29e572aa4a2298e40b3f429295dd49da, type: 3}
+  m_Name: Plant_Cebola
+  m_EditorClassIdentifier: 
+  plantName: Cebola
+  timeToGrow: 64
+  fertilizationDrain: 1
+  irrigation: 1
+  fertilization: 0
+  care: 0
+  states:
+  - stateName: Cebola Morta
+    stateModel: {fileID: 919132149155446097, guid: 54e61ef7fe472cb458855b8d9b7e589b, type: 3}
+  - stateName: Colher Cebola
+    stateModel: {fileID: 919132149155446097, guid: 56f37debb6bc5d842a5d35abc95df9ee, type: 3}
+  - stateName: Cebola Sem Frutos
+    stateModel: {fileID: 0}
+  - stateName: Broto de Cebola
+    stateModel: {fileID: 919132149155446097, guid: c8ef4c1d2a84cbb4f930da7ed3e086f9, type: 3}
+  - stateName: Cebola Vegetativa
+    stateModel: {fileID: 919132149155446097, guid: 393d94197639f4044971b44cf35073d4, type: 3}
+  - stateName: "Cebola em Matura\xE7\xE3o"
+    stateModel: {fileID: 919132149155446097, guid: c8cea45158220c841a94ff78fba222ae, type: 3}
+  itemSeed: {fileID: 11400000, guid: d78df4f5035c01d4c99b96a849785506, type: 2}
+  itemOutcome: {fileID: 11400000, guid: 4cd3d82961c36874ca5aa07633435452, type: 2}
+  pruneItem: {fileID: 11400000, guid: d6b94e84ccee60b4fa48586149610764, type: 2}
+  pruneItemAmount: 1
+  collectData:
+  - amount: 1
+    timeToNextCollect: 0

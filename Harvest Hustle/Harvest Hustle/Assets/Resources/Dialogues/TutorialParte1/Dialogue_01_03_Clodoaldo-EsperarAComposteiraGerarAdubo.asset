@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 786460eaf7f72de48ae28dfda2b36bff, type: 3}
+  m_Name: Dialogue_01_03_Clodoaldo-EsperarAComposteiraGerarAdubo
+  m_EditorClassIdentifier: 
+  Description: "Agora que o jogador j\xE1 Colocou o adubo pra jogo, ele vai fazer
+    outra coisa"
+  RequiresQuest: 1
+  QuestRequired: {fileID: 11400000, guid: 70012188142e8ee40b8fd7cd3a5ae7db, type: 2}
+  DontHaveTheQuestDialogue: {fileID: 11400000, guid: d0149ab3d11dfbc44a3e25c66be18f9d, type: 2}
+  Conversation:
+  - Speaker: {fileID: 11400000, guid: 43de24dee45a5af47895ecc814dd12c8, type: 2}
+    Text: "Ent\xE3o voc\xEA conseguiu colocar os substratos, certo?"
+    TextSpeed: 1
+    RewardInfos: []
+    QuestInfos: []
+    NextDialogueInfos: []
+  - Speaker: {fileID: 11400000, guid: 43de24dee45a5af47895ecc814dd12c8, type: 2}
+    Text: "O fertilizante dever\xE1 ficar pronto em alguns dias, ent\xE3o \xE9 necess\xE1rio
+      esperar."
+    TextSpeed: 1
+    RewardInfos: []
+    QuestInfos: []
+    NextDialogueInfos: []
+  - Speaker: {fileID: 11400000, guid: 43de24dee45a5af47895ecc814dd12c8, type: 2}
+    Text: "Mas tome alguns para que voc\xEA consiga continuar aprendendo mais sobre
+      a fazenda."
+    TextSpeed: 1
+    RewardInfos: []
+    QuestInfos: []
+    NextDialogueInfos: []
+  - Speaker: {fileID: 0}
+    Text: Clodoaldo te entrega alguns fertilizantes.
+    TextSpeed: 1
+    RewardInfos:
+    - Item: {fileID: 11400000, guid: 8dc575ad8af576540b19090084816aa9, type: 2}
+      Amount: 3
+    QuestInfos: []
+    NextDialogueInfos: []
+  - Speaker: {fileID: 11400000, guid: 43de24dee45a5af47895ecc814dd12c8, type: 2}
+    Text: "Acho que seria bom come\xE7armos a fazer nossa primeira planta\xE7\xE3o.
+      Aqui, tome algumas sementes."
+    TextSpeed: 1
+    RewardInfos: []
+    QuestInfos: []
+    NextDialogueInfos: []
+  - Speaker: {fileID: 0}
+    Text: Clodoaldo te entrega Sementes.
+    TextSpeed: 1
+    RewardInfos:
+    - Item: {fileID: 11400000, guid: 3546bcd93e7ad69449ee1fe1c5b862ff, type: 2}
+      Amount: 3
+    QuestInfos: []
+    NextDialogueInfos: []
+  - Speaker: {fileID: 11400000, guid: 43de24dee45a5af47895ecc814dd12c8, type: 2}
+    Text: "Para plantar basta ir at\xE9 um solo limpo e enterrar a semente nele."
+    TextSpeed: 1
+    RewardInfos: []
+    QuestInfos: []
+    NextDialogueInfos: []
+  - Speaker: {fileID: 11400000, guid: 43de24dee45a5af47895ecc814dd12c8, type: 2}
+    Text: Tente fazer isso!
+    TextSpeed: 1
+    RewardInfos: []
+    QuestInfos:
+    - StartQuest: {fileID: 11400000, guid: 232974fdf0c2904488975925f7b63276, type: 2}
+    NextDialogueInfos:
+    - NPC: {fileID: 11400000, guid: 43de24dee45a5af47895ecc814dd12c8, type: 2}
+      NextDialogue: {fileID: 11400000, guid: 26bf262eea060b9418c369217d6ca3b7, type: 2}

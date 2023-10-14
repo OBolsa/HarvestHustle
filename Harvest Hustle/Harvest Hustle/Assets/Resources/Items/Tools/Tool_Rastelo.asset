@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b33e4677cb1fd8d428213062cd34d8c6, type: 3}
+  m_Name: Tool_Rastelo
+  m_EditorClassIdentifier: 
+  itemName: Rastelo
+  itemDescription: "Use-o para nivelar terrenos, criar padr\xF5es em jardins ornamentais
+    e descobrir artefatos ocultos sob camadas de solo. Sua precis\xE3o com o rastelo
+    desbloquear\xE1 possibilidades est\xE9ticas impressionantes."
+  maxStack: 1
+  itemIcon: {fileID: 1775183618, guid: fbf10fc1364b23844959c938eb87ea25, type: 3}
+  itemModel: {fileID: 919132149155446097, guid: cebd804e70477be4aae8bef6e5f1a15b, type: 3}
+  itemType: 1
+  toolType: 8

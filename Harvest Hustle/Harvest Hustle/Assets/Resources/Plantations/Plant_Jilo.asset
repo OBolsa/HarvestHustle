@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29e572aa4a2298e40b3f429295dd49da, type: 3}
+  m_Name: Plant_Jilo
+  m_EditorClassIdentifier: 
+  plantName: "Jil\xF3"
+  timeToGrow: 40
+  fertilizationDrain: 2
+  irrigation: 1
+  fertilization: 0
+  care: 2
+  states:
+  - stateName: "Jil\xF3 Morto"
+    stateModel: {fileID: 919132149155446097, guid: 54e61ef7fe472cb458855b8d9b7e589b, type: 3}
+  - stateName: "Colher Jil\xF3"
+    stateModel: {fileID: 919132149155446097, guid: 2e8b568ea335e4f4b93ee8a6b9efc83e, type: 3}
+  - stateName: "Jil\xF3 Sem Fruto"
+    stateModel: {fileID: 919132149155446097, guid: 2e8b568ea335e4f4b93ee8a6b9efc83e, type: 3}
+  - stateName: "Broto de Jil\xF3"
+    stateModel: {fileID: 919132149155446097, guid: c8ef4c1d2a84cbb4f930da7ed3e086f9, type: 3}
+  - stateName: "Jil\xF3 Vegetativo"
+    stateModel: {fileID: 919132149155446097, guid: 393d94197639f4044971b44cf35073d4, type: 3}
+  - stateName: "Jil\xF3 em Matura\xE7\xE3o"
+    stateModel: {fileID: 919132149155446097, guid: c8cea45158220c841a94ff78fba222ae, type: 3}
+  itemSeed: {fileID: 11400000, guid: 4965f38ce938e13429f7d609f54cd89d, type: 2}
+  itemOutcome: {fileID: 11400000, guid: 7852f7f1673e358498f6c7664d7ecfa7, type: 2}
+  pruneItem: {fileID: 11400000, guid: d6b94e84ccee60b4fa48586149610764, type: 2}
+  pruneItemAmount: 1
+  collectData:
+  - amount: 5
+    timeToNextCollect: 8
+  - amount: 2
+    timeToNextCollect: 8
+  - amount: 2
+    timeToNextCollect: 8
+  - amount: 2
+    timeToNextCollect: 0

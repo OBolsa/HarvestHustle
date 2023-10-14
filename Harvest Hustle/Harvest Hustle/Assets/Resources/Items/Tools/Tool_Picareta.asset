@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b33e4677cb1fd8d428213062cd34d8c6, type: 3}
+  m_Name: Tool_Picareta
+  m_EditorClassIdentifier: 
+  itemName: Picareta
+  itemDescription: "Explore as profundezas da terra em busca de min\xE9rios preciosos
+    e gemas brilhantes. Com a picareta em m\xE3os, voc\xEA pode escavar t\xFAneis,
+    desvendar segredos subterr\xE2neos e fortalecer sua base com recursos valiosos."
+  maxStack: 1
+  itemIcon: {fileID: 1432458861, guid: fbf10fc1364b23844959c938eb87ea25, type: 3}
+  itemModel: {fileID: 919132149155446097, guid: 5b181e4e6731faf44a9aabbcd71e5908, type: 3}
+  itemType: 1
+  toolType: 4

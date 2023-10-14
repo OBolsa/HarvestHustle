@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b33e4677cb1fd8d428213062cd34d8c6, type: 3}
+  m_Name: Tool_Martelo
+  m_EditorClassIdentifier: 
+  itemName: Martelo
+  itemDescription: "Com ele, voc\xEA pode erguer estruturas imponentes, forjar armas
+    poderosas e reparar itens danificados. Sua habilidade com o martelo determinar\xE1
+    a durabilidade e a qualidade das cria\xE7\xF5es que voc\xEA traz \xE0 vida no
+    mundo do jogo."
+  maxStack: 1
+  itemIcon: {fileID: 905891444, guid: fbf10fc1364b23844959c938eb87ea25, type: 3}
+  itemModel: {fileID: 919132149155446097, guid: f9215fe09d13c664aad2aaf20632288f, type: 3}
+  itemType: 1
+  toolType: 9

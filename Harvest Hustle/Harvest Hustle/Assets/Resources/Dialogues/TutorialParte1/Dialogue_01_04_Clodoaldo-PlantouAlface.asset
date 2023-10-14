@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 786460eaf7f72de48ae28dfda2b36bff, type: 3}
+  m_Name: Dialogue_01_04_Clodoaldo-PlantouAlface
+  m_EditorClassIdentifier: 
+  Description: O Jogador Plantou a arface. Agora vai cuidar.
+  RequiresQuest: 1
+  QuestRequired: {fileID: 11400000, guid: 232974fdf0c2904488975925f7b63276, type: 2}
+  DontHaveTheQuestDialogue: {fileID: 11400000, guid: 3663e797b7cc68b49a16de9f7428c4c7, type: 2}
+  Conversation:
+  - Speaker: {fileID: 11400000, guid: 43de24dee45a5af47895ecc814dd12c8, type: 2}
+    Text: "Vejo que plantou as sementes, mas ainda n\xE3o terminou de cultiv\xE1-las."
+    TextSpeed: 1
+    RewardInfos: []
+    QuestInfos: []
+    NextDialogueInfos: []
+  - Speaker: {fileID: 11400000, guid: 43de24dee45a5af47895ecc814dd12c8, type: 2}
+    Text: "Acho que voc\xEA vai precisar disso:"
+    TextSpeed: 1
+    RewardInfos: []
+    QuestInfos: []
+    NextDialogueInfos: []
+  - Speaker: {fileID: 0}
+    Text: Clodoaldo te entrega um regador vazio
+    TextSpeed: 1
+    RewardInfos:
+    - Item: {fileID: 11400000, guid: b7c1452629cb93248b6e7b98227f24f4, type: 2}
+      Amount: 1
+    QuestInfos: []
+    NextDialogueInfos: []
+  - Speaker: {fileID: 11400000, guid: 43de24dee45a5af47895ecc814dd12c8, type: 2}
+    Text: "Com este regador voc\xEA poder\xE1 regar suas plantas. Primeiro encha-o
+      no po\xE7o."
+    TextSpeed: 1
+    RewardInfos: []
+    QuestInfos: []
+    NextDialogueInfos: []
+  - Speaker: {fileID: 11400000, guid: 43de24dee45a5af47895ecc814dd12c8, type: 2}
+    Text: "Depois, sempre que sua planta\xE7\xE3o parecer seca, use o regador cheio
+      nela. Assim ela crescer\xE1 forte."
+    TextSpeed: 1
+    RewardInfos: []
+    QuestInfos: []
+    NextDialogueInfos: []
+  - Speaker: {fileID: 11400000, guid: 43de24dee45a5af47895ecc814dd12c8, type: 2}
+    Text: "Mas regue apenas quando notar a apar\xEAncia seca!"
+    TextSpeed: 1
+    RewardInfos: []
+    QuestInfos: []
+    NextDialogueInfos: []
+  - Speaker: {fileID: 11400000, guid: 43de24dee45a5af47895ecc814dd12c8, type: 2}
+    Text: "Mais do que isso e voc\xEA mata a pobre da planta afogada."
+    TextSpeed: 1
+    RewardInfos: []
+    QuestInfos: []
+    NextDialogueInfos:
+    - NPC: {fileID: 11400000, guid: 43de24dee45a5af47895ecc814dd12c8, type: 2}
+      NextDialogue: {fileID: 11400000, guid: 043c9e872dfe7964aae429dbe683ad5e, type: 2}

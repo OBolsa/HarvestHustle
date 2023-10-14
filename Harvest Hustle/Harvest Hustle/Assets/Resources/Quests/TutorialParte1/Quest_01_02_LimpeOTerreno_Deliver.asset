@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e49a86daf662825469250169b8406bc1, type: 3}
+  m_Name: Quest_01_02_LimpeOTerreno_Deliver
+  m_EditorClassIdentifier: 
+  Information:
+    Title: Limpe o Terreno
+    Description: Clodoaldo te orientou a limpar os terrenos como primeira atividade.
+  Reward:
+    Contribuition: 0
+    Items: []
+    Quests: []
+  Goals:
+  - {fileID: 1708789282294112225}
+--- !u!114 &1708789282294112225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa001931983ebba49bab8e103fc5266b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RequiredAmount: 1
+  CustomDescription: "Avise o {0} que voc\xEA terminou."
+  GoalCompleted:
+    m_PersistentCalls:
+      m_Calls: []
+  desiredInteractionName: Clodoaldo

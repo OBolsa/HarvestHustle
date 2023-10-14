@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59a5b4b1559c3694d976017fbde4e0cf, type: 3}
+  m_Name: Container_PlayerInventory
+  m_EditorClassIdentifier: 
+  IsPlayerContainer: 1
+  slots:
+  - items:
+    - {fileID: 11400000, guid: 8696cdad1e5ce814cb11103ca75b572b, type: 2}
+    maxStacks: 1
+  - items:
+    - {fileID: 11400000, guid: 4e6766cf7bbdd8042bf8862e33a05f43, type: 2}
+    - {fileID: 11400000, guid: 4e6766cf7bbdd8042bf8862e33a05f43, type: 2}
+    - {fileID: 11400000, guid: 4e6766cf7bbdd8042bf8862e33a05f43, type: 2}
+    maxStacks: 1
+  - items:
+    - {fileID: 11400000, guid: 17ce39288aaa3c344bb14f906081020e, type: 2}
+    - {fileID: 11400000, guid: 17ce39288aaa3c344bb14f906081020e, type: 2}
+    - {fileID: 11400000, guid: 17ce39288aaa3c344bb14f906081020e, type: 2}
+    - {fileID: 11400000, guid: 17ce39288aaa3c344bb14f906081020e, type: 2}
+    - {fileID: 11400000, guid: 17ce39288aaa3c344bb14f906081020e, type: 2}
+    maxStacks: 5
+  - items:
+    - {fileID: 11400000, guid: d6b94e84ccee60b4fa48586149610764, type: 2}
+    - {fileID: 11400000, guid: d6b94e84ccee60b4fa48586149610764, type: 2}
+    - {fileID: 11400000, guid: d6b94e84ccee60b4fa48586149610764, type: 2}
+    - {fileID: 11400000, guid: d6b94e84ccee60b4fa48586149610764, type: 2}
+    - {fileID: 11400000, guid: d6b94e84ccee60b4fa48586149610764, type: 2}
+    maxStacks: 5
+  - items: []
+    maxStacks: 0
+  - items: []
+    maxStacks: 0
+  - items: []
+    maxStacks: 0
+  - items: []
+    maxStacks: 0
+  - items: []
+    maxStacks: 0

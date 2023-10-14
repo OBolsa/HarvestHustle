@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8510103382226542968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36cf9188507a256458fcc4d4d19904c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RequiredAmount: 5
+  CustomDescription: 
+  GoalCompleted:
+    m_PersistentCalls:
+      m_Calls: []
+  itemToUse: {fileID: 11400000, guid: d6b94e84ccee60b4fa48586149610764, type: 2}
+  desiredInteractionName: Composteira
+--- !u!114 &-6285317765548562167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa001931983ebba49bab8e103fc5266b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RequiredAmount: 1
+  CustomDescription: "Avise o {0} que voc\xEA terminou."
+  GoalCompleted:
+    m_PersistentCalls:
+      m_Calls: []
+  desiredInteractionName: Clodoaldo
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e49a86daf662825469250169b8406bc1, type: 3}
+  m_Name: Quest_01_03_InicieOPreparoDeAdubo_Deliver
+  m_EditorClassIdentifier: 
+  Information:
+    Title: Inicie o Preparo de Adubo
+    Description: Clodoaldo de te ensina em como adicionar substrato na composteira
+  Reward:
+    Contribuition: 0
+    Items: []
+    Quests: []
+  Goals:
+  - {fileID: -6285317765548562167}
